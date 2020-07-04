@@ -7,5 +7,5 @@ import com.cjc.model.Student;
 
 @Repository
 public interface Dao extends CrudRepository<Student,Integer> {
-
+int add();
 }
